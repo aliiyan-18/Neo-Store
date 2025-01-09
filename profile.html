@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Aplikasi Penjualan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: url('background.jpg') center/cover no-repeat;
+            color: #333;
+        }
+
+        header, nav, footer {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header {
+            background: rgba(98, 241, 15, 0.8);
+            color: #fff;
+        }
+
+        nav {
+            background: rgba(66, 179, 0, 0.8);
+        }
+
+        nav a {
+            margin: 0 1rem;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        footer {
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .product-listing {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .product-card {
+            width: 90%;
+            text-align: center;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin: 0 auto;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .product-card p {
+            font-size: 1rem;
+            color: #777;
+            margin: 1rem 0;
+        }
+
+        .product-card .price {
+            font-weight: bold;
+            color: #4CAF50;
+            font-size: 1.1rem;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: center; padding: 1rem;">
+        <img src="https://i.pinimg.com/736x/7c/9a/5b/7c9a5b614d06568f47b3a26af6e20636.jpg" alt="NEO STORE Logo" style="width: 80px; height: 80px; margin-right: 20px;">
+        <h1>Selamat Datang di NEO STORE</h1>
+    </header>
+
+    <nav>
+        <a href="beranda.html">Beranda</a>
+        <a href="profile.html">Profile</a>
+        <a href="transaksi.html">Transaksi</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <div class="container">
+        <h2>NEO STORE</h2>
+        <p>Selamat datang di Toko NEO STORE, toko yang menyediakan merchandise K-pop terutama boy grup NCT. 
+            Di NEO STORE kalian bisa membeli merchandis yang bisa saamaan sama idol. yuk beli, yakali engga sayang banget sih!!!!
+        </p>
+        <h2>제품 NEOSTORE</h2>
+        <p>ANYEONG!!!! YUKK BELI MERCH GEMESNYAAAA :</p>
+
+        <div class="product-listing">
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/43/8e/80/438e80a8c04f819b29e8c19767a2f160.jpg">
+                <h3>Lightstick NCT</h3>
+                <p>Lightstick official (NCT dream, NCT 127, WayV)</p>
+                <div class="price">Rp. 750.000</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/e0/9d/76/e09d763941a5d7513997674c6cec8a3b.jpg">
+                <h3>Album</h3>
+                <p>Album terbaru (photocard, poster, CD)</p>
+                <div class="price">Rp. 350.000</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/47/ba/54/47ba5468e2e11f6eaee8e679f16fcd0e.jpg">
+                <h3>Hoodie NCT</h3>
+                <p>Hoodie NCIT</p>
+                <div class="price">Rp. 500.000</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/b6/f9/f5/b6f9f5e2633de69daf51aa3e8a61ba37.jpg">
+                <h3>Photocard</h3>
+                <p>Photocar Pink Christmas ver</p>
+                <div class="price">Rp. 50.000/1 photocard</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/e5/eb/d7/e5ebd76f5511690bcce3e8baaec56228.jpg">
+                <h3>Poster NCT  Dream</h3>
+                <p>Only Poster</p>
+                <div class="price">Rp. 30.000</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/13/32/f5/1332f5c14fbc2fd352307a8e4d757e81.jpg">
+                <h3>Doll NCT</h3>
+                <p>Doll memb Nct Wish</p>
+                <div class="price">Rp. 45.000/1 Doll</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/b3/43/01/b34301f436b70071f9158baad6f8465b.jpg">
+                <h3>Keychain</h3>
+                <p>NCT Dream ver</p>
+                <div class="price">Rp. 20.000/1 Member</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/ad/43/2b/ad432b53a2a7604f6e2aefdcc53a7e21.jpg">
+                <h3>Acrylic Key Ring</h3>
+                <p>key ring All memb vers</p>
+                <div class="price">Rp. 30.000/1 Pcs</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/aa/d4/72/aad472051dbd8f98a2adabaa1d4cfa62.jpg">
+                <h3>Card Holder</h3>
+                <p>Card Holder (jaehyun, Mark, Haechan)</p>
+                <div class="price">Rp. 25.000</div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/07/54/3d/07543d8e369416fd6659abef04671dec.jpg">
+                <h3>ToteBag NCT</h3>
+                <p>Totebag NCT vers</p>
+                <div class="price">Rp. 50.000</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 NEO STORE. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
